@@ -1,0 +1,77 @@
+html{
+    background-color: #EEEEEE;
+}
+body{
+    margin: 0px;
+}
+.cuerpo{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0px;
+    height: 100vh;
+    
+    
+}
+
+.uno{
+    order: 2;
+    grid-row: span 3;
+    
+}
+.dos{
+    order: 3;
+    grid-row: span 3;
+    background-color: black;
+}
+.tres{
+    order: 4;
+    grid-row: span 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.cuatro{
+    order: 5;
+    grid-row: span 3;
+    
+    
+}
+.cinco{
+    order: 1;
+    grid-column: span 2;
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.cincosub{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.cinco img{
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.cinco h1{
+    color: #CF0A0A;
+}
+.tres img{
+    width: 70%;
+    
+}
+button{
+    background-color: #CF0A0A;
+    border: 2px solid black;
+    border-radius: 5%;
+    position: relative;
+    margin-left: 10%;
+    
+}
